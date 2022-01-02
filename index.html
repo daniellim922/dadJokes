@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
+    <main class="flex justify-center mt-8">
+        <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dad Jokes Generator</h1>
+            <ul class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+
+            </ul>
+            <button id="btn" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Generate Dad Joke
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
     
 </body>
 </html>
